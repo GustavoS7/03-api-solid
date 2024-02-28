@@ -1,4 +1,4 @@
-import { makeGetUserProfileUseCase } from "@/use-cases/factories/make-get-user-profile";
+import { makeGetUserProfileUseCase } from "@/use-cases/factories";
 import { FastifyReply, FastifyRequest } from "fastify";
 
 export async function profile(

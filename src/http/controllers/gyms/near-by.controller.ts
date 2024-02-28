@@ -1,4 +1,4 @@
-import { makeFetchNearByGymsUseCase } from "@/use-cases/factories/make-fetch-near-by-gysm-use-case";
+import { makeFetchNearByGymsUseCase } from "@/use-cases/factories";
 import { FastifyReply, FastifyRequest } from "fastify";
 import { z } from "zod";
 
