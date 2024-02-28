@@ -5,7 +5,7 @@ import { history } from "./history.controller";
 import { create } from "./create.controller";
 import { FastifyInstance } from "fastify";
 
-export async function checkInsoutes(app: FastifyInstance) {
+export async function checkInRoutes(app: FastifyInstance) {
   app.addHook("onRequest", verifyJWT);
 
   app.get("/check-ins/history", history);
